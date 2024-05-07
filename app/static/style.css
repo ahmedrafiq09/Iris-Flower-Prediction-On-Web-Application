@@ -1,0 +1,67 @@
+/* style.css */
+
+/* Universal styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background for a clean look */
+}
+
+/* Centering the form in the middle of the page */
+.login {
+    max-width: 400px; /* Limit the width for better readability */
+    margin: 50px auto; /* Center the form horizontally and add top margin */
+    padding: 20px; /* Add padding for inner spacing */
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners for a smooth look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center; /* Center-align text */
+}
+
+/* Style for the title */
+h1 {
+    color: #333; /* Dark gray text for contrast */
+    font-size: 24px; /* Larger font for the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Style for the input fields */
+input[type="text"] {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Padding inside the input field */
+    margin-bottom: 10px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Ensure consistent sizing */
+    transition: border 0.3s; /* Smooth transition on focus */
+}
+
+/* Highlight input field on focus */
+input[type="text"]:focus {
+    border-color: #66afe9; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Style for the button */
+button {
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text for contrast */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Change button background color on hover */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for the prediction text */
+.prediction_text {
+    font-size: 16px; /* Normal font size */
+    color: #333; /* Dark gray text */
+    margin-top: 20px; /* Space above the prediction text */
+}
